@@ -112,13 +112,66 @@ h3 {
   margin: 8px;
 }
 
+.newsDisplay {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  padding: 4px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: lightgoldenrodyellow;
+  border-bottom: 2px solid black;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
 .newsCard {
-  width: 80%;
+  max-width: 800px;
+  vertical-align: middle;
+  display: none;
+  margin: auto;
+  margin-bottom: 16px;
 }
 
 .newsCard img {
   align-items: center;
   border-radius: 4px;
+  max-width: 800px;
+  height: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.newsCard a {
+  width: 80%;
+  display: inline-block;
+  text-align: center;
 }
 
 .footer {
@@ -140,8 +193,11 @@ h3 {
   text-align: center;
 }
 
-.button {
+.inlineGrid {
   display: inline-grid;
+}
+
+.button {
   border: 1px solid black;
   border-radius: 4px;
   margin: 8px;
@@ -150,7 +206,7 @@ h3 {
   text-align: center;
   vertical-align: center;
   font-weight: bold;
-  height: 24px;
+  max-height: 36px;
 }
 
 .primary {
