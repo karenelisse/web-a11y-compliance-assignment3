@@ -5,6 +5,7 @@ body {
 
 h1 {
   margin-left: 20px;
+  font-size: 36px;
 }
 
 h2 {
@@ -68,20 +69,37 @@ h3 {
   margin-top: 16px;
 }
 
-.header {
+.headerMain {
   display: grid;
   grid-template-columns: 224px auto 300px;
 }
 
-.header img {
+.headerMain img {
   float: left;
   margin-top: 8px;
   width: 200px;
   margin: 8px;
 }
 
-.header p {
+.headerMain p {
   font-size: 24px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 160px auto ;
+}
+
+.header img {
+  float: left;
+  margin-top: 8px;
+  width: 124px;
+  margin: 8px;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-top: 40px;
 }
 
 .adoptions {
