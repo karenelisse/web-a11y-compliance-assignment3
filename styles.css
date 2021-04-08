@@ -26,6 +26,33 @@ h3 {
   width: 1px;
 }
 
+a.skip-main {
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
+
+a.skip-main:focus, a.skip-main:active {
+  color: #fff;
+  background-color:#000;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  margin: 16px;
+  padding:8px;
+  border-radius: 8px;
+  text-align:center;
+  font-size:24px;
+  position:relative;
+  display: block;
+  text-decoration: none;
+}
+
 .navigationBar {
   list-style-type: none;
   margin: 0;
@@ -67,6 +94,7 @@ h3 {
   width: 80%;
   margin: auto;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .headerMain {
@@ -211,8 +239,14 @@ h3 {
 
 .newsCard a {
   width: 80%;
-  display: inline-block;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.advertisements {
+  margin-bottom: 16px;
+  display: block;
 }
 
 .footer {
@@ -220,18 +254,23 @@ h3 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  overflow: hidden;
+  text-align: center;
 }
 
 .footer li {
-  float: left;
+  display:inline;
 }
 
 .footer li a {
-  text-decoration: none;
-  padding: 8px 16px;
-  display: block;
-  text-align: center;
+  display:inline-block;
+  padding:10px;
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer li a:hover {
+  border-bottom: 4px solid black;
 }
 
 .inlineGrid {
@@ -245,9 +284,9 @@ h3 {
   padding: 8px;
   text-decoration: none;
   text-align: center;
-  vertical-align: center;
   font-weight: bold;
   max-height: 36px;
+  display: block;
 }
 
 .primary {
