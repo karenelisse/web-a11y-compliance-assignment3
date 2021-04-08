@@ -298,3 +298,23 @@ a.skip-main:focus, a.skip-main:active {
   color: black;
 }
 
+.contactDetails {
+  display:inline-grid;
+}
+
+.contactDetails img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.contactDetails a {
+  display: inline;
+  left: 24px;
+  margin: 8px;
+}
+
