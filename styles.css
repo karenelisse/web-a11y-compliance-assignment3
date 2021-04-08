@@ -63,16 +63,39 @@ h3 {
   margin: 16px;
   padding: 8px;
   border-radius: 2px;
+  width: 80%;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 224px auto 300px;
 }
 
 .header img {
   float: left;
   margin-top: 8px;
+  width: 200px;
+  margin: 8px;
 }
 
-.header h1 {
-  position: relative;
-  left: 24px;
+.header p {
+  font-size: 24px;
+}
+
+.adoptions {
+  float: right;
+  vertical-align: center;
+}
+
+.adoptions figcaption {
+  font-size: 24px;
+}
+
+.adoptions li {
+  font-size: 20px;
+  list-style: none;
 }
 
 .grid {
