@@ -382,3 +382,8 @@ a.skip-main:focus, a.skip-main:active {
 .findDog div {
   margin-left: 36px;
 }
+
+.dogImage {
+  width: 50%;
+  margin: auto;
+}
