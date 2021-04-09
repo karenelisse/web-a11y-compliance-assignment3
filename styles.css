@@ -73,10 +73,6 @@ h3 {
   margin-bottom: 16px;
 }
 
-
-
-/* Styles used on several pages */
-
 a.skip-main {
   left:-999px;
   position:absolute;
@@ -104,9 +100,71 @@ a.skip-main:focus, a.skip-main:active {
   text-decoration: none;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto auto;
+}
 
+.card {
+  box-shadow: 8px 4px #EEF1F6;
+  border-radius: 4px;
+  border: 1px solid #CDD5E4;
+  margin: 16px;
+  padding: 8px;
+  background-color: #ffffff;
+}
 
+.footer {
+  border-top: 2px solid black;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
 
+.footer li {
+  display:inline;
+}
+
+.footer li a {
+  display:inline-block;
+  padding:10px;
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer li a:hover {
+  border-bottom: 4px solid black;
+}
+
+.inlineGrid {
+  display: inline-grid;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  max-height: 36px;
+  display: block;
+}
+
+.primary {
+  background-color: black;
+  color: white;
+}
+
+.secondary {
+  color: black;
+}
+
+/* Styles used on several pages */
 
 .headerMain {
   display: grid;
@@ -155,22 +213,6 @@ a.skip-main:focus, a.skip-main:active {
   list-style: none;
 }
 
-.grid {
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: auto auto;
-}
-
-.card {
-  box-shadow: 8px 4px #EEF1F6;
-  border-radius: 4px;
-  border: 1px solid #CDD5E4;
-  margin: 16px;
-  padding: 8px;
-  background-color: #ffffff;
-}
-
-
 .petOfTheWeekCard {
   display: inline-grid;
 }
@@ -191,6 +233,9 @@ a.skip-main:focus, a.skip-main:active {
   left: 24px;
   margin: 8px;
 }
+
+
+/* index.html */
 
 .newsDisplay {
   max-width: 1000px;
@@ -260,54 +305,7 @@ a.skip-main:focus, a.skip-main:active {
   display: block;
 }
 
-.footer {
-  border-top: 2px solid black;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-.footer li {
-  display:inline;
-}
-
-.footer li a {
-  display:inline-block;
-  padding:10px;
-  text-decoration:none;
-  color: black;
-  font-weight: bold;
-}
-
-.footer li a:hover {
-  border-bottom: 4px solid black;
-}
-
-.inlineGrid {
-  display: inline-grid;
-}
-
-.button {
-  border: 1px solid black;
-  border-radius: 4px;
-  margin: 8px;
-  padding: 8px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  max-height: 36px;
-  display: block;
-}
-
-.primary {
-  background-color: black;
-  color: white;
-}
-
-.secondary {
-  color: black;
-}
+/* contact.html */
 
 .contactDetails {
   display:inline-grid;
