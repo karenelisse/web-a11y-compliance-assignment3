@@ -302,7 +302,15 @@ a.skip-main:focus, a.skip-main:active {
 
 .advertisements {
   margin-bottom: 16px;
+  margin-left: 15%;
+  margin-right: 15%;
   display: block;
+  
+}
+
+advertisements img {
+  width: 100%;
+  margin: 24px;
 }
 
 /* contact.html */
