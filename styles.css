@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   background-color: #EEF1F6;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,6 +17,8 @@ h3 {
   margin-left: 10px;
 }
 
+/* Component-level styles */
+
 .visuallyHidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -24,33 +27,6 @@ h3 {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-
-a.skip-main {
-  left:-999px;
-  position:absolute;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
-  z-index:-999;
-}
-
-a.skip-main:focus, a.skip-main:active {
-  color: #fff;
-  background-color:#000;
-  left: auto;
-  top: auto;
-  width: auto;
-  height: auto;
-  margin: 16px;
-  padding:8px;
-  border-radius: 8px;
-  text-align:center;
-  font-size:24px;
-  position:relative;
-  display: block;
-  text-decoration: none;
 }
 
 .navigationBar {
@@ -96,6 +72,41 @@ a.skip-main:focus, a.skip-main:active {
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+
+
+/* Styles used on several pages */
+
+a.skip-main {
+  left:-999px;
+  position:absolute;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
+
+a.skip-main:focus, a.skip-main:active {
+  color: #fff;
+  background-color:#000;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  margin: 16px;
+  padding:8px;
+  border-radius: 8px;
+  text-align:center;
+  font-size:24px;
+  position:relative;
+  display: block;
+  text-decoration: none;
+}
+
+
+
+
 
 .headerMain {
   display: grid;
@@ -318,3 +329,56 @@ a.skip-main:focus, a.skip-main:active {
   margin: 8px;
 }
 
+/* adoptPet.html specific */
+.adoptAPet {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto auto auto;
+}
+.adoptAPet li {
+  display:inline;
+}
+
+.adoptAPet li a {
+  display:inline-block;
+  text-decoration:none;
+  width: 80%;
+}
+
+/* adoptDog.html specific */
+
+.dogOfTheWeekCard {
+  display: inline-grid;
+}
+
+.dogOfTheWeekCard img {
+  float: left;
+  width: 136px;
+  height: 136px;
+  object-fit: cover;
+  border: 1px solid #CDD5E4;
+  border-radius: 50%;
+  box-shadow: 2px 4px #EEF1F6;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.dogOfTheWeekCard p {
+  left: 24px;
+  margin: 8px;
+}
+
+.dogOfTheWeekCard a {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.findDog {
+  padding-left: 16px;
+}
+
+.findDog div {
+  margin-left: 36px;
+}
