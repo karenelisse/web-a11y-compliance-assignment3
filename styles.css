@@ -17,6 +17,10 @@ h3 {
   margin-left: 10px;
 }
 
+focus {
+  outline: yellow;
+}
+
 /* Component-level styles */
 
 .visuallyHidden {
