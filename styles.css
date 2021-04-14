@@ -37,6 +37,7 @@ h3 {
   background: #ffffff;
   position: relative;
   box-shadow: 5px pink;
+  height: 32px;
 }
 
 .navigationBar li {
