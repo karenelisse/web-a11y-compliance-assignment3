@@ -213,10 +213,6 @@ a.skip-main:focus, a.skip-main:active {
   list-style: none;
 }
 
-.petOfTheWeekCard {
-  height: 25%;
-}
-
 .petOfTheWeekCard img {
   float: left;
   width: 7.75rem;
