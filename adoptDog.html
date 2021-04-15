@@ -22,7 +22,7 @@
         >
           <li><a href="index.html">Home</a></li>
           <li><a href="404.html">About Us</a></li>
-          <li><a class="activeNavigationBar" href="adopt.html">Adopt a Pet</a></li>
+          <li><a href="adopt.html">Adopt a Pet</a></li>
           <li><a href="404.html">Foster a Pet</a></li>
           <li><a href="404.html">Donations</a></li>
           <li><a href="404.html">Help Us</a></li>
@@ -106,15 +106,18 @@
       <div
       class=" card grid"
       >
-      
-      <div
-      class="findDog"
-      >
-        <p>
-          Please select details you are willing to see in an adoption candidate. Any animals which do not fit in the categories you have selected will be excluded from returned results.
-        </p>
-          <h3 for="dogAge">Age of Dog</h3>
-          <select name="dogAge">
+        <form 
+          action="/404.html"
+          class="findDog"
+        >
+          <p>
+            Please select details you are willing to see in an adoption candidate. Any animals which do not fit in the categories you have selected will be excluded from returned results.
+          
+          </p>
+          <label class="ageSelect" for="age-select">
+            Age of Dog
+          </label>
+          <select name="dogAge" id="age-select">
             <option value="puppy">Puppy (0 to 1 year)</option>
             <option value="adolescent">Adolescent (1 to 3 years)</option>
             <option value="adult">Adult (3 to 8 years)</option>
@@ -122,10 +125,8 @@
             <option value="any">Any age</option>
           </select>
 
-          <h3>
-            Lifestyle Requirements
-          </h3>
-          <div>
+          <fieldset>
+            <legend>Lifestyle Requirements</legend>
             <input type="checkbox" value="lowShedding" id="lowShedding" name="lowShedding">
             <label for="lowShedding">Low shedding</label><br>
             <input type="checkbox" value="apartmentFriendly" id="apartmentFriendly" name="apartmentFriendly">
@@ -136,37 +137,31 @@
             <label for="catFriendly">Good with cats</label><br>
             <input type="checkbox" value="fullTimeWorker" id="fullTimeWorker" name="fullTimeWorker">
             <label for="fullTimeWorker">Suit full-time worker</label>
-          </div>
+          </fieldset>
 
-          <h3>
-            Special Categories
-          </h3>
-          <div>
+          <fieldset>
+            <legend>Special Categories</legend>
             <input type="checkbox" value="specialNeeds" id="specialNeeds" name="specialNeeds">
             <label for="specialNeeds">Special Needs</label><br>
             <input type="checkbox" value="bondedPairs" id="bondedPairs" name="bondedPairs">
             <label for="bondedPairs">Bonded Pairs</label>
-          </div>
+          </fieldset>
 
-          <h3>
-            Do you have previous rescue experience?
-          </h3>
-          <div>
-            <input type="radio" value="previousExperience" id="previousExperience" name="experience">
-            <label for="previousExperience">Yes</label>
+          <fieldset>
+            <legend>Do you have previous rescue experience?</legend>
             <input type="radio" value="noPreviousRescueExperience" id="noPreviousRescueExperience" name="experience">
             <label for="noPreviousRescueExperience">No</label>
-          </div>
+            <input type="radio" value="previousExperience" id="previousExperience" name="experience">
+            <label for="previousExperience">Yes</label>
+          </fieldset>
 
-
-          <span
-            class="grid"
-          >
-            <a href="404.html" class="button primary" >Search</a>
-            <a href="404.html" class="button secondary" >Reset</a>
-          </span>
-
-        </div>
+            <div
+              class="grid"
+            >
+              <a href="404.html" class="button primary" >Search</a>
+              <a href="404.html" class="button secondary" >Reset</a>
+            </div>
+          </form>
         <img src="resources/stock-dog.jpeg" class="dogImage" alt=""/>
       </div>
 

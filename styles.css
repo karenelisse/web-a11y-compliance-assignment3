@@ -22,11 +22,11 @@ h3 {
 .visuallyHidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  height: 1px;
+  height: .0625rem;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
-  width: 1px;
+  width: .0625rem;
 }
 
 .navigationBar {
@@ -62,7 +62,7 @@ h3 {
 }
 
 .section {
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   background-color: #ffffff;
   padding: .5rem;
   border-radius: 2px;
@@ -76,8 +76,8 @@ a.skip-main {
   left:-999px;
   position:absolute;
   top:auto;
-  width:1px;
-  height:1px;
+  width:.0625rem;
+  height:.0625rem;
   overflow:hidden;
   z-index:-999;
 }
@@ -108,7 +108,7 @@ a.skip-main:focus, a.skip-main:active {
 .card {
   box-shadow: .5rem .25rem #EEF1F6;
   border-radius: .25rem;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   margin: .5rem;
   padding: .5rem;
   background-color: #ffffff;
@@ -144,7 +144,7 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 .button {
-  border: 1px solid black;
+  border: .0625rem solid black;
   border-radius: 4px;
   margin: .5rem;
   padding: .5rem;
@@ -163,8 +163,8 @@ a.skip-main:focus, a.skip-main:active {
   color: black;
 }
 
-.secondary focus {
-  border-color: yellow;
+.primary:focus {
+border-bottom: .3rem solid lightgoldenrodyellow !important;
 }
 
 /* Styles used on several pages */
@@ -229,7 +229,7 @@ a.skip-main:focus, a.skip-main:active {
   width: 7.75rem;
   height: 7.75rem;
   object-fit: cover;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   border-radius: 50%;
   box-shadow: 2px 4px #EEF1F6;
   margin-right: 1rem;
@@ -263,7 +263,7 @@ a.skip-main:focus, a.skip-main:active {
   vertical-align: middle;
   display: none;
   margin: auto;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   margin: .5rem;
   padding: .5rem;
   background-color: #ffffff;
@@ -295,7 +295,7 @@ a.skip-main:focus, a.skip-main:active {
 .contactUsImage {
   width: 20rem;
   object-fit: cover;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   border-radius: 1rem;
   box-shadow: 2px 4px #EEF1F6;
 }
@@ -303,7 +303,7 @@ a.skip-main:focus, a.skip-main:active {
 .dogWalkingInfoImage {
   width: 20rem;
   object-fit: cover;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   border-radius: 1rem;
   box-shadow: 2px 4px #EEF1F6;
 }
@@ -316,7 +316,7 @@ a.skip-main:focus, a.skip-main:active {
 .enquiries img {
   width: 15rem;
   object-fit: cover;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   border-radius: 1rem;
   box-shadow: 2px 4px #EEF1F6;
 }
@@ -342,7 +342,7 @@ a.skip-main:focus, a.skip-main:active {
   width: 136px;
   height: 136px;
   object-fit: cover;
-  border: 1px solid #CDD5E4;
+  border: .0625rem solid #CDD5E4;
   border-radius: 50%;
   box-shadow: 2px 4px #EEF1F6;
   margin-right: 1rem;
@@ -367,6 +367,18 @@ a.skip-main:focus, a.skip-main:active {
 
 .findDog div {
   margin-left: 36px;
+}
+
+.findDog fieldset {
+  margin-top: 1rem;
+}
+
+.findDog legend {
+  font-weight: bold;
+}
+
+.ageSelect {
+  font-weight: bold;
 }
 
 .dogImage {
