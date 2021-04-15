@@ -64,13 +64,12 @@ h3 {
 .section {
   border: 1px solid #CDD5E4;
   background-color: #ffffff;
-  margin: 1rem;
   padding: .5rem;
   border-radius: 2px;
   width: 80%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 a.skip-main {
@@ -121,6 +120,7 @@ a.skip-main:focus, a.skip-main:active {
   padding: 0;
   list-style-type: none;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .footer li {
@@ -151,7 +151,6 @@ a.skip-main:focus, a.skip-main:active {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  max-height: 36px;
   display: block;
 }
 
@@ -226,7 +225,7 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 .petOfTheWeekCard p {
-  left: 24px;
+  left: 1.5rem;
   margin: .5rem;
 }
 
@@ -242,8 +241,8 @@ a.skip-main:focus, a.skip-main:active {
 /* index.html */
 
 .newsDisplay {
-  position: relative;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 90%;
 }
