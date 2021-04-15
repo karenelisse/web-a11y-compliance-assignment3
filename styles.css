@@ -46,7 +46,7 @@ h3 {
 .navigationBar li a {
   display: block;
   font-weight: bold;
-  padding: .5rem 1rem;
+  padding: .5rem 1.5rem;
   text-decoration: none;
   color: black;
 }
@@ -210,6 +210,14 @@ a.skip-main:focus, a.skip-main:active {
 .adoptions li {
   font-size: 20px;
   list-style: none;
+}
+
+.petOfTheWeekRow {
+  min-height: 25rem;
+}
+
+.petOfTheWeekCard {
+  min-height: 22rem !important;
 }
 
 .petOfTheWeekCard img {
