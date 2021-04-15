@@ -112,6 +112,7 @@ a.skip-main:focus, a.skip-main:active {
   margin: .5rem;
   padding: .5rem;
   background-color: #ffffff;
+  max-width: fit-content;
 }
 
 .footer {
@@ -152,6 +153,7 @@ a.skip-main:focus, a.skip-main:active {
   text-align: center;
   font-weight: bold;
   display: block;
+  max-width: fit-content;
 }
 
 .primary {
@@ -169,59 +171,34 @@ border-bottom: .3rem solid lightgoldenrodyellow !important;
 
 /* Styles used on several pages */
 
-.headerMain {
-  display: grid;
-  grid-template-columns: 224px auto 300px;
-}
-
-.headerMain img {
-  float: left;
-  margin-top: .5rem;
-  width: 12.5rem;
-  margin: .5rem;
-}
-
-.headerMain p {
-  font-size: 1.5rem;
-}
-
-.header {
-  display: grid;
-  grid-template-columns: 160px auto ;
-}
-
-.header img {
-  float: left;
-  margin-top: .5rem;
-  width: 7.75rem;
-  margin: .5rem;
-}
-
-.header h1 {
-  font-size: 40px;
-  margin-top: 40px;
-}
-
 .adoptions {
   float: right;
   vertical-align: center;
+  margin-left: 1rem;
+  padding: 1rem;
 }
 
 .adoptions figcaption {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .adoptions li {
-  font-size: 20px;
+  font-size: 1rem;
   list-style: none;
+}
+
+.adoptions span {
+  font-weight: bold;
 }
 
 .petOfTheWeekRow {
   min-height: 25rem;
+  margin-left: 5%;
 }
 
 .petOfTheWeekCard {
   min-height: 22rem !important;
+  max-width: fit-content;
 }
 
 .petOfTheWeekCard img {
@@ -249,7 +226,6 @@ border-bottom: .3rem solid lightgoldenrodyellow !important;
   margin-right: .5rem
 }
 
-
 /* index.html */
 
 .newsDisplay {
@@ -273,7 +249,7 @@ border-bottom: .3rem solid lightgoldenrodyellow !important;
   align-items: center;
   border-radius: .25rem;
   max-width: 80%;
-  height: 27.5rem;
+  max-height: 27.5rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -286,9 +262,10 @@ border-bottom: .3rem solid lightgoldenrodyellow !important;
   margin-bottom: .5rem;
 }
 
-.petPalace {
-  width: 80%;
+.sponsors img {
+  max-width: 90%;
 }
+
 
 /* contact.html */
 
