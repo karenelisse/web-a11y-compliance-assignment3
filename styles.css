@@ -36,7 +36,7 @@ h3 {
   overflow: hidden;
   background: #ffffff;
   position: relative;
-  height: 2.5rem;
+  min-height: 2.5rem;
 }
 
 .navigationBar li {
