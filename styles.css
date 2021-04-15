@@ -163,6 +163,10 @@ a.skip-main:focus, a.skip-main:active {
   color: black;
 }
 
+.secondary focus {
+  border-color: yellow;
+}
+
 /* Styles used on several pages */
 
 .headerMain {
@@ -318,19 +322,13 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 /* adoptPet.html specific */
-.adoptAPet {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: auto auto auto;
-}
-.adoptAPet li {
-  display:inline;
-}
 
-.adoptAPet li a {
-  display:inline-block;
-  text-decoration:none;
-  width: 80%;
+.adoptAPet {
+  margin: auto;
+}
+.adoptAPet a {
+  list-style-type: none;
+  margin: auto;
 }
 
 /* adoptDog.html specific */

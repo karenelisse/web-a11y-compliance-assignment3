@@ -1,46 +1,70 @@
+<!DOCTYPE html>
 <html
   lang="en"
 >
   <head>
-    <title>Monika's Doggie Rescue Adopt A Dog</title>
+    <title>Adopt A Dog - Monika's Doggie Rescue</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+​
+  <header>
     <a class="skip-main" href="#main-content">Skip to main content</a>
     <div>
       <h2
-      class="visuallyHidden"
+        class="visuallyHidden"
       >
-        Navigation
+        Main Navigation
       </h2>
-      <ul
-        class="navigationBar"
-      >
-        <li><a href="index.html">Home</a></li>
-        <li><a href="404.html">About Us</a></li>
-        <li><a href="adopt.html">Adopt a Pet</a></li>
-        <li><a href="404.html">Foster a Pet</a></li>
-        <li><a href="404.html">Donations</a></li>
-        <li><a href="404.html">Help Us</a></li>
-        <li
-          style="float:right"
+      <nav>
+        <ul
+          class="navigationBar"
         >
-          <a href="contact.html">Contact Us</a>
-        </li>
-      </ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="404.html">About Us</a></li>
+          <li><a class="activeNavigationBar" href="adopt.html">Adopt a Pet</a></li>
+          <li><a href="404.html">Foster a Pet</a></li>
+          <li><a href="404.html">Donations</a></li>
+          <li><a href="404.html">Help Us</a></li>
+          <li
+            style="float:right"
+          >
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-
+  </header>
+    
+  <main
+    id="main-content"
+  >
     <div
-      class="section header"
-      id="#main-content"
-      tabindex="-1"
+      class="section"
     >
-      <img alt="Doggie Rescue logo" src="resources/dr-logo.jpeg" />
-      <span>
-        <h1>
-          Adopt a Dog
-        </h1>
-    </div>  
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-2"
+          >
+            <img 
+              alt="Monika's Rescues, Doggierescue.com" 
+              src="resources/dr-logo.jpeg" 
+            />
+          </div>
+          <div
+            class="col-10">
+            <h1>
+              Adopt A Dog
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div
       class="section"
@@ -80,20 +104,24 @@
         Are you looking for the perfect dog to share your life? Let us know a bit about your lifestyle so that we can find you the perfect dog.
       </p>
       <div
-        class=" card grid"
+      class=" card grid"
       >
-
-        <div
-          class="findDog"
-        >
+      
+      <div
+      class="findDog"
+      >
+        <p>
+          Please select details you are willing to see in an adoption candidate. Any animals which do not fit in the categories you have selected will be excluded from returned results.
+        </p>
           <h3 for="dogAge">Age of Dog</h3>
           <select name="dogAge">
             <option value="puppy">Puppy (0 to 1 year)</option>
             <option value="adolescent">Adolescent (1 to 3 years)</option>
             <option value="adult">Adult (3 to 8 years)</option>
             <option value="senior">Senior (8 years or older)</option>
+            <option value="any">Any age</option>
           </select>
-  
+
           <h3>
             Lifestyle Requirements
           </h3>
@@ -109,7 +137,7 @@
             <input type="checkbox" value="fullTimeWorker" id="fullTimeWorker" name="fullTimeWorker">
             <label for="fullTimeWorker">Suit full-time worker</label>
           </div>
-  
+
           <h3>
             Special Categories
           </h3>
@@ -119,7 +147,7 @@
             <input type="checkbox" value="bondedPairs" id="bondedPairs" name="bondedPairs">
             <label for="bondedPairs">Bonded Pairs</label>
           </div>
-  
+
           <h3>
             Do you have previous rescue experience?
           </h3>
@@ -129,34 +157,37 @@
             <input type="radio" value="noPreviousRescueExperience" id="noPreviousRescueExperience" name="experience">
             <label for="noPreviousRescueExperience">No</label>
           </div>
-  
-  
+
+
           <span
             class="grid"
           >
             <a href="404.html" class="button primary" >Search</a>
             <a href="404.html" class="button secondary" >Reset</a>
           </span>
-  
+
         </div>
-        <img src="resources/stock-dog.jpeg" class="dogImage" alt="a dog sits happily"/>
+        <img src="resources/stock-dog.jpeg" class="dogImage" alt=""/>
       </div>
 
     </div>
-    
-    <h2
-      class="visuallyHidden"
-    >
-      Footer
-    </h2>
-    <ul
-      class="footer"
-    >
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="404.html">About Us</a></li>
-      <li><a href="404.html">Help Us</a></li>
-    </ul>
+
+  </main>
+​
+    <footer>
+      <h2
+        class="visuallyHidden"
+      >
+        Footer navigation
+      </h2>
+      <ul
+        class="footer"
+      >
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="404.html">About Us</a></li>
+        <li><a href="404.html">Help Us</a></li>
+      </ul>
+    </footer>
     <script src="scripts.js"></script>
   </body>
 </html>
-
