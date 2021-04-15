@@ -5,20 +5,16 @@ body {
 }
 
 h1 {
-  margin-left: 20px;
-  font-size: 36px;
+  margin-left: 1rem;
+  font-size: 2.25rem;
 }
 
 h2 {
-  margin-left: 10px;
+  margin-left: .75rem;
 }
 
 h3 {
-  margin-left: 10px;
-}
-
-focus {
-  outline: yellow;
+  margin-left: .75rem;
 }
 
 /* Component-level styles */
@@ -40,8 +36,7 @@ focus {
   overflow: hidden;
   background: #ffffff;
   position: relative;
-  box-shadow: 5px pink;
-  height: 32px;
+  height: 2.5rem;
 }
 
 .navigationBar li {
@@ -51,31 +46,31 @@ focus {
 .navigationBar li a {
   display: block;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: .5rem 1rem;
   text-decoration: none;
   color: black;
 }
 
 .navigationBar li a:hover {
-  border-bottom: 4px solid black;
+  border-bottom: .25rem solid black;
   background-color: lightgoldenrodyellow;
 
 }
 
 .activeNavigationBar {
-  border-bottom: 4px solid black;
+  border-bottom: .25rem solid black;
 }
 
 .section {
   border: 1px solid #CDD5E4;
   background-color: #ffffff;
-  margin: 16px;
-  padding: 8px;
+  margin: 1rem;
+  padding: .5rem;
   border-radius: 2px;
   width: 80%;
   margin: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 a.skip-main {
@@ -95,11 +90,11 @@ a.skip-main:focus, a.skip-main:active {
   top: auto;
   width: auto;
   height: auto;
-  margin: 16px;
-  padding:8px;
-  border-radius: 8px;
+  margin: 1rem;
+  padding:.5rem;
+  border-radius: .5rem;
   text-align:center;
-  font-size:24px;
+  font-size:1.5rem;
   position:relative;
   display: block;
   text-decoration: none;
@@ -107,16 +102,16 @@ a.skip-main:focus, a.skip-main:active {
 
 .grid {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 1rem;
   grid-template-columns: auto auto;
 }
 
 .card {
-  box-shadow: 8px 4px #EEF1F6;
-  border-radius: 4px;
+  box-shadow: .5rem .25rem #EEF1F6;
+  border-radius: .25rem;
   border: 1px solid #CDD5E4;
-  margin: 16px;
-  padding: 8px;
+  margin: .5rem;
+  padding: .5rem;
   background-color: #ffffff;
 }
 
@@ -134,7 +129,7 @@ a.skip-main:focus, a.skip-main:active {
 
 .footer li a {
   display:inline-block;
-  padding:10px;
+  padding:1rem;
   text-decoration:none;
   color: black;
   font-weight: bold;
@@ -151,8 +146,8 @@ a.skip-main:focus, a.skip-main:active {
 .button {
   border: 1px solid black;
   border-radius: 4px;
-  margin: 8px;
-  padding: 8px;
+  margin: .5rem;
+  padding: .5rem;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -178,13 +173,13 @@ a.skip-main:focus, a.skip-main:active {
 
 .headerMain img {
   float: left;
-  margin-top: 8px;
-  width: 200px;
-  margin: 8px;
+  margin-top: .5rem;
+  width: 12.5rem;
+  margin: .5rem;
 }
 
 .headerMain p {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .header {
@@ -194,9 +189,9 @@ a.skip-main:focus, a.skip-main:active {
 
 .header img {
   float: left;
-  margin-top: 8px;
-  width: 124px;
-  margin: 8px;
+  margin-top: .5rem;
+  width: 7.75rem;
+  margin: .5rem;
 }
 
 .header h1 {
@@ -210,7 +205,7 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 .adoptions figcaption {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .adoptions li {
@@ -224,19 +219,27 @@ a.skip-main:focus, a.skip-main:active {
 
 .petOfTheWeekCard img {
   float: left;
-  width: 124px;
-  height: 124px;
+  width: 7.75rem;
+  height: 7.75rem;
   object-fit: cover;
   border: 1px solid #CDD5E4;
   border-radius: 50%;
   box-shadow: 2px 4px #EEF1F6;
-  margin-right: 16px;
-  margin-bottom: 8px;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
 }
 
 .petOfTheWeekCard p {
   left: 24px;
-  margin: 8px;
+  margin: .5rem;
+}
+
+.doggieRescueLogo {
+  float: left;
+  margin-top: 1rem;
+  width: 8rem;
+  margin: .5rem;
+  margin-right: .5rem
 }
 
 
@@ -256,7 +259,7 @@ a.skip-main:focus, a.skip-main:active {
   padding: 4px;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.5rem;
   border-radius: 0 3px 3px 0;
 }
 
@@ -285,7 +288,7 @@ a.skip-main:focus, a.skip-main:active {
   vertical-align: middle;
   display: none;
   margin: auto;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .newsCard img {
@@ -302,20 +305,11 @@ a.skip-main:focus, a.skip-main:active {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 
-.advertisements {
-  margin-bottom: 16px;
-  margin-left: 15%;
-  margin-right: 15%;
-  display: block;
-  
-}
-
-advertisements img {
-  width: 100%;
-  margin: 24px;
+.petPalace {
+  width: 80%;
 }
 
 /* contact.html */
@@ -329,21 +323,21 @@ advertisements img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-right: 16px;
-  margin-bottom: 8px;
+  border-radius: .5rem;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
 }
 
 .contactDetails a {
   display: inline;
   left: 24px;
-  margin: 8px;
+  margin: .5rem;
 }
 
 /* adoptPet.html specific */
 .adoptAPet {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 1rem;
   grid-template-columns: auto auto auto;
 }
 .adoptAPet li {
@@ -370,13 +364,13 @@ advertisements img {
   border: 1px solid #CDD5E4;
   border-radius: 50%;
   box-shadow: 2px 4px #EEF1F6;
-  margin-right: 16px;
-  margin-bottom: 8px;
+  margin-right: 1rem;
+  margin-bottom: .5rem;
 }
 
 .dogOfTheWeekCard p {
   left: 24px;
-  margin: 8px;
+  margin: .5rem;
 }
 
 .dogOfTheWeekCard a {
@@ -387,7 +381,7 @@ advertisements img {
 }
 
 .findDog {
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 .findDog div {
@@ -397,4 +391,164 @@ advertisements img {
 .dogImage {
   width: 50%;
   margin: auto;
+}
+
+
+/* Simple Grid */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 100%;
+    max-width: 60rem;
+  }
 }

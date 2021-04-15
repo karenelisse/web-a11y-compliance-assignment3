@@ -1,61 +1,91 @@
+<!DOCTYPE html>
 <html
   lang="en"
 >
   <head>
     <title>Monika's Doggie Rescue Home</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
   <body>
+​
+  <header>
     <a class="skip-main" href="#main-content">Skip to main content</a>
     <div>
       <h2
-      class="visuallyHidden"
+        class="visuallyHidden"
       >
-        Navigation
+        Main Navigation
       </h2>
-      <ul
-        class="navigationBar"
-      >
-        <li><a class="activeNavigationBar" href="index.html">Home</a></li>
-        <li><a href="404.html">About Us</a></li>
-        <li><a href="adopt.html">Adopt a Pet</a></li>
-        <li><a href="404.html">Foster a Pet</a></li>
-        <li><a href="404.html">Donations</a></li>
-        <li><a href="404.html">Help Us</a></li>
-        <li
-          style="float:right"
+      <nav>
+        <ul
+          class="navigationBar"
         >
-          <a href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-
-    <div
-      class="section headerMain"
-      id="#main-content"
-      tabindex="-1"
-    >
-      <img alt="Doggie Rescue logo" src="resources/dr-logo.jpeg" />
-      <span>
-        <h1>
-          DoggieRescue.com
-        </h1>
-        <p>
-          We are a no-kill shelter, rescuing and re-homing abandoned dogs from death row in Sydney's pounds
-        </p>
-      </span>
-      <figure
-        class="card adoptions"
-      >
-        <figcaption>Adoptions To Date</figcaption>
-        <ul>
-          <li><b>Dogs:</b> 20,123</li>
-          <li><b>Cats:</b> 1,234</li>
-          <li><b>Other Animals:</b> 345</li>
+          <li><a class="activeNavigationBar" href="index.html">Home</a></li>
+          <li><a href="404.html">About Us</a></li>
+          <li><a href="adopt.html">Adopt a Pet</a></li>
+          <li><a href="404.html">Foster a Pet</a></li>
+          <li><a href="404.html">Donations</a></li>
+          <li><a href="404.html">Help Us</a></li>
+          <li
+            style="float:right"
+          >
+            <a href="contact.html">Contact Us</a>
+          </li>
         </ul>
-      </figure>
+      </nav>
+    </div>
+  </header>
+    
+  <main
+    id="#main-content"
+  >
+    <div
+      class="section"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-2"
+          >
+            <img 
+              class="doggieRescueLogo"
+              alt="Doggie Rescue logo" 
+              src="resources/dr-logo.jpeg" 
+            />
+          </div>
+          <div
+            class="col-6">
+            <h1>
+              DoggieRescue.com
+            </h1>
+            <p>
+              We are a no-kill shelter, rescuing and re-homing abandoned dogs from death row in Sydney's pounds
+            </p>
+          </div>
+          <div
+            class="col-4"
+          >
+            <figure
+              class="card adoptions"
+            >
+              <figcaption>Adoptions To Date</figcaption>
+              <ul>
+                <li><b>Dogs:</b> 20,123</li>
+                <li><b>Cats:</b> 1,234</li>
+                <li><b>Other Animals:</b> 345</li>
+              </ul>
+            </figure>
+          </div>
+        </div>
+      </div>
     </div>  
-
+​
     <div
       class="section"
     >
@@ -95,7 +125,7 @@
           </a>
         </div>
       </div>
-
+​
       <div
         class="petOfTheWeekCard card"
       >
@@ -126,7 +156,7 @@
           </a>
         </div>
       </div>
-
+​
       <div
         class="petOfTheWeekCard card"
       >
@@ -165,7 +195,9 @@
       <h2>
         News & Articles
       </h2>
-      <div>
+      <div
+        class="news-articles"
+      >
         <div
           class="card newsCard"
         >
@@ -277,49 +309,54 @@
             Donate to Doggie Rescue
           </a>
         </div>
-
-        <div style="text-align:center">
-          <a class="prev" onclick="plusSlides(-1)"><span aria-hidden="true"><</span><span class="visuallyHidden">Previous Article</span></a>
+​
+        <!-- <div style="text-align:center">
+          <a class="prev" onclick="plusSlides(-1)"><span aria-hidden="true">&left;</span><span class="visuallyHidden">Previous Article</span></a>
           <span class="dot" onclick="currentSlide(1)"></span> 
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
           <span class="dot" onclick="currentSlide(4)"></span> 
           <a class="next" onclick="plusSlides(1)"><span aria-hidden="true">></span><span class="visuallyHidden">Next Article</span></a>
-        </div>
-
+        </div> -->
+​
       </div>
     </div>
-
+​
     <div
       class="section"
     >
       <h2>
         Supported By
       </h2>
-      <!-- TODO Fix this section  improve grid -->
       <div
-        class="advertisements"
+        class="container"
       >
-        <a 
-          href="petpalace.com"
-          target="_blank"
+        <div
+          class="row"  
         >
-          <img
-            src="resources/petspalacead.jpg"
-            alt="Pets Palace petspalace.com.au lifestyle and luxury for your pet. Australia’s number 1 online store for pet products"
-          />
-          <span class="visuallyHidden"> Click to visit Pet's Palace in a new window</span> 
-        </a> 
+          <a 
+            href="petpalace.com"
+            target="_blank"
+            class="col-1 petPalace"
+          >
+            <img
+              src="resources/petspalacead.jpg"
+              alt="Pets Palace petspalace.com.au lifestyle and luxury for your pet. Australia’s number 1 online store for pet products"
+            />
+            <span class="visuallyHidden"> Click to visit Pet's Palace in a new window</span> 
+          </a> 
+        </div>
       
         <div
-          class="grid"
-          style="margin-top:30px;"
+          class="row"
+          xstyle="margin-top:1.875rem;"
         >
           <a 
             href="petrevolution.com"
+            class="col-6"
           >
             <img
-              style="width:280px;"
+              style="width:17.5rem;"
               src="resources/revolutionad.jpg"
               alt="Revolution Animal Health by pfizer"
               target="_blank"
@@ -328,36 +365,50 @@
           </a>
           
           <a 
-          href="thecottageanimalhospital.com"
-          target="_blank"
+            href="thecottageanimalhospital.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="col-6"
           >
             <img
-              style="width:240px;"
+              style="width:15rem;"
               src="resources/thecottagead.jpg"
               alt="The Cottage Animal Hospital"
-              target="_blank"
             />
             <span class="visuallyHidden"> Click to visit The Cottage Animal Hospital in a new window</span>
           </a>
         </div>
       </div>
     </div>
+  </main>
+​
+    <footer>
+      <h2
+        class="visuallyHidden"
+      >
+        Footer navigation
+      </h2>
+      <ul
+        class="footer"
+      >
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="404.html">About Us</a></li>
+        <li><a href="404.html">Help Us</a></li>
+      </ul>
+    </footer>
     <script src="scripts.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.news-articles').slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          adaptiveHeight: false
+        });
+      });
+    </script>
   </body>
-
-  <footer>
-    <h2
-      class="visuallyHidden"
-    >
-      Footer
-    </h2>
-    <ul
-      class="footer"
-    >
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="404.html">About Us</a></li>
-      <li><a href="404.html">Help Us</a></li>
-    </ul>
-  </footer>
 </html>
-
